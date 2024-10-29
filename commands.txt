@@ -1,0 +1,8 @@
+nvm use 20 // node version available on aws-lambda
+serverless
+npm i @neondatabase/serverless
+npm i -g neonctl
+neonctl auth
+npm i drizzle-orm
+npm i -D drizzle-kit
+serverless plugin install -n serverless-offline
